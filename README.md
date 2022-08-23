@@ -1,6 +1,6 @@
 # Project of EPFL Embedded system
 
-We build a monitor system with a camera and a LCD display. The camera and LCD display is configured before use with I2C. 
+We build a monitor system with a camera and a LCD display. The camera and LCD display is configured before use with I2C. The transmission between camera-CPU, and CPU-LCD are controlled by Avalon bus. 
 
 <h6 align="center">Fig 1. Architecture of camera module</h6>
 <img width="500" alt="Screen Shot 2022-08-23 at 10 16 45 AM" src="https://user-images.githubusercontent.com/68586310/186108210-cb213188-9b40-4724-b498-aa9899ad9bbc.png">
